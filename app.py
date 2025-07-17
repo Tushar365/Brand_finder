@@ -143,7 +143,7 @@ if df_reference is not None and product_file is not None:
             identified_brands = len(result_df[result_df['Brand_Name'] != 'Unknown'])
             st.write(f"Total products: {total_products}")
             st.write(f"Products with identified brands: {identified_brands} ({identified_brands/total_products:.1%})")
-            st.write(f"Products with unknown brands: {total_products - identified_brands} ({(total_products - identified_brands)/total_products:.1%})")ified_brands/total_products:.1%})")
+            st.write(f"Products with unknown brands: {total_products - identified_brands} ({(total_products - identified_brands)/total_products:.1%})")ified_brands/total_products:.1%)")
             
     except Exception as e:
         st.error(f"Error processing files: {e}")
